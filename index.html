@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>旅行烘焙箱 · 瑞典篇</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #f6e7c9; overflow: hidden; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas { image-rendering: pixelated; image-rendering: crisp-edges; display: block;
+           box-shadow: 0 0 0 4px #4a3028, 0 10px 0 4px rgba(74,48,40,.25); border-radius: 2px; }
+  #loading { position: absolute; font: 16px/1.6 "PingFang SC", sans-serif; color: #4a3028; }
+</style>
+</head>
+<body>
+<div id="loading">正在把面包装进旅行箱……</div>
+<canvas id="game" width="480" height="270"></canvas>
+<script src="assets/manifest.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
